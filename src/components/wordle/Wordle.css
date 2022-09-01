@@ -1,0 +1,60 @@
+.Wordle_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Wordle_form_input {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #2c2c2c;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  background-color: transparent;
+  max-width: 190px;
+  border-radius: 0;
+  line-height: 1.5;
+  margin-top: 0.15rem;
+  color: var(--main-color);
+}
+
+.Confetti {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Wordle_dead-letters {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  z-index: -2;
+}
+
+.dead-letter {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 4px;
+  background-color: var(--wordle-secondary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 500ms ease 0s;
+  animation: dead 2s ease forwards;
+}
+
+@keyframes dead {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
