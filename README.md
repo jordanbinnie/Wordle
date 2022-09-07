@@ -9,7 +9,7 @@
 
 Inspired by the internet famous word puzzle called Wordle. 
 
-Created my own version using a custom hook method with React. 
+Created my own version using a custom hook method with React.js. 
 
 A new word is generated on every reload/game restart. 
 
