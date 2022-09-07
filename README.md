@@ -1,6 +1,6 @@
 # Wordle
 
-### [Live Site](https://www.flickmessenger.com)
+### [Live Site](https://www.jordanbinnie.com/projects/wordle)
 
 ![worlde-win](https://user-images.githubusercontent.com/110155852/188305480-c260df77-22ce-4901-9945-76fdf503e8d0.png)
 ![wordle-lose](https://user-images.githubusercontent.com/110155852/188305484-938606b7-d805-4b7f-9c91-8d04ab1255c0.png)
